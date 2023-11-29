@@ -7,6 +7,7 @@ If you want automatic hex color values based on the song you're listening to on 
 create an application at [Spotify](https://developer.spotify.com/dashboard). Set the following settings:  
 * Redirect URIs - http://localhost/:8080  
 * APIs used - Web Playback SDK, Web API  
+
 After creating the app copy the Client ID, Client secret, and Redirect URI and replace 
 `your_client_id`, `your_client_secret`, and `your_redirect_uri` in the script respectively. 
 After running the script, you should be redirected to an authentication page. After accepting, copy 
