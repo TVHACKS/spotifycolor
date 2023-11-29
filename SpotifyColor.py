@@ -88,7 +88,7 @@ def poll_for_track_change():
                         dominant_color = get_dominant_color_similar_to_common(album_cover_url)
 
                         if dominant_color:
-                            print(f"The dominant color similar to a common color of the album cover is: {dominant_color}")
+                            print(f"{dominant_color}")
 
                             # Update SignalRGB with the new hex value
                             update_signalrgb_effect(dominant_color)
