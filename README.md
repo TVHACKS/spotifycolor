@@ -22,3 +22,5 @@ For SignalRGB:
 If you want to use this for another effect, refer to the SignalRGB command line [documentation](https://docs.signalrgb.com/application-url-s/using-command-line) 
 and replace the `command` variable under `def update_signalrgb_effect(hex_value)` with your new command. 
 Simply do the same steps for this script as for the script without SignalRGB.
+
+The color detection is very simple and may not always be accurate, but it works really well.
