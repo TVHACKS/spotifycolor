@@ -3,7 +3,6 @@ from spotipy.oauth2 import SpotifyOAuth
 from colorthief import ColorThief
 import requests
 from io import BytesIO
-import re
 import time
 import subprocess
 
